@@ -1,0 +1,129 @@
+[0.012s] Invoking command in '/home/gordon/grasp/build/franka_msgs': CMAKE_PREFIX_PATH=/home/gordon/grasp/install/my_python_package:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(grasp38) /usr/bin/cmake /home/gordon/grasp/src/franka_ros2/franka_msgs -DCMAKE_INSTALL_PREFIX=/home/gordon/grasp/install/franka_msgs
+[0.018s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.018s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.018s]   CMake.
+[0.019s] 
+[0.019s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.019s]   to tell CMake that the project requires at least <min> but has been updated
+[0.019s]   to work with policies introduced by <max> or earlier.
+[0.019s] 
+[0.019s] [0m
+[0.022s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.023s] [33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.023s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.023s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.023s]   the cmake_policy command to set the policy and suppress this warning.
+[0.023s] 
+[0.023s] Call Stack (most recent call first):
+[0.023s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.023s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.023s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.023s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.023s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.023s]   CMakeLists.txt:8 (find_package)
+[0.023s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.023s] [0m
+[0.033s] -- Found PythonInterp: /home/gordon/miniconda3/envs/grasp38/bin/python3 (found suitable version "3.8.20", minimum required is "3")
+[0.033s] -- Using PYTHON_EXECUTABLE: /home/gordon/miniconda3/envs/grasp38/bin/python3
+[0.105s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.106s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.108s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.182s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.192s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[0.206s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.222s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.257s] [33mCMake Warning (dev) at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:40 (find_package):
+[0.257s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.257s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.257s]   the cmake_policy command to set the policy and suppress this warning.
+[0.257s] 
+[0.257s] Call Stack (most recent call first):
+[0.257s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.257s]   CMakeLists.txt:14 (rosidl_generate_interfaces)
+[0.257s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.257s] [0m
+[0.268s] -- Found PythonInterp: /home/gordon/miniconda3/envs/grasp38/bin/python3 (found version "3.8.20")
+[0.467s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[0.616s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.684s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.687s] [33mCMake Warning (dev) at /opt/ros/foxy/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[0.687s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.687s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.687s]   the cmake_policy command to set the policy and suppress this warning.
+[0.687s] 
+[0.687s] Call Stack (most recent call first):
+[0.687s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[0.687s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[0.687s]   CMakeLists.txt:14 (rosidl_generate_interfaces)
+[0.687s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.687s] [0m
+[0.698s] -- Found PythonInterp: /home/gordon/miniconda3/envs/grasp38/bin/python3 (found suitable version "3.8.20", minimum required is "3.5")
+[0.699s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[0.699s] [33mCMake Warning (dev) at /opt/ros/foxy/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:45 (find_package):
+[0.699s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.699s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.699s]   the cmake_policy command to set the policy and suppress this warning.
+[0.699s] 
+[0.699s] Call Stack (most recent call first):
+[0.699s]   /opt/ros/foxy/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[0.699s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[0.699s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[0.699s]   CMakeLists.txt:14 (rosidl_generate_interfaces)
+[0.699s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.699s] [0m
+[0.709s] [33mCMake Warning (dev) at /opt/ros/foxy/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:133 (find_package):
+[0.709s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.710s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.710s]   the cmake_policy command to set the policy and suppress this warning.
+[0.710s] 
+[0.710s] Call Stack (most recent call first):
+[0.710s]   /opt/ros/foxy/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[0.710s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[0.710s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[0.710s]   CMakeLists.txt:14 (rosidl_generate_interfaces)
+[0.710s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.710s] [0m
+[0.711s] -- Found PythonLibs: /home/gordon/miniconda3/envs/grasp38/lib/libpython3.8.so (found suitable version "3.8.20", minimum required is "3.5")
+[0.711s] -- Using PYTHON_EXECUTABLE: /home/gordon/miniconda3/envs/grasp38/bin/python3
+[0.711s] -- Using PYTHON_INCLUDE_DIRS: /home/gordon/miniconda3/envs/grasp38/include/python3.8
+[0.711s] -- Using PYTHON_LIBRARIES: /home/gordon/miniconda3/envs/grasp38/lib/libpython3.8.so
+[0.721s] -- Found PythonExtra: .so
+[0.873s] -- Using numpy include directory: /home/gordon/miniconda3/envs/grasp38/lib/python3.8/site-packages/numpy/core/include
+[0.883s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.896s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.898s] -- Added test 'lint_cmake' to check CMake code style
+[0.899s] -- Added test 'xmllint' to check XML markup files
+[0.900s] -- Configuring done (0.9s)
+[0.948s] -- Generating done (0.0s)
+[0.955s] -- Build files have been written to: /home/gordon/grasp/build/franka_msgs
+[0.961s] Invoked command in '/home/gordon/grasp/build/franka_msgs' returned '0': CMAKE_PREFIX_PATH=/home/gordon/grasp/install/my_python_package:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(grasp38) /usr/bin/cmake /home/gordon/grasp/src/franka_ros2/franka_msgs -DCMAKE_INSTALL_PREFIX=/home/gordon/grasp/install/franka_msgs
+[0.962s] Invoking command in '/home/gordon/grasp/build/franka_msgs': CMAKE_PREFIX_PATH=/home/gordon/grasp/install/my_python_package:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(grasp38) /usr/bin/cmake --build /home/gordon/grasp/build/franka_msgs -- -j20 -l20
+[0.976s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.979s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.001s] Traceback (most recent call last):
+[1.002s]   File "/opt/ros/foxy/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c", line 8, in <module>
+[1.002s]     from rosidl_generator_c import generate_c
+[1.002s]   File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_generator_c/__init__.py", line 15, in <module>
+[1.002s]     from rosidl_cmake import convert_camel_case_to_lower_case_underscore
+[1.002s]   File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_cmake/__init__.py", line 24, in <module>
+[1.002s]     from rosidl_parser.parser import parse_idl_file
+[1.002s]   File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_parser/parser.py", line 20, in <module>
+[1.002s]     from lark import Lark
+[1.002s] ModuleNotFoundError: No module named 'lark'
+[1.004s] make[2]: *** [CMakeFiles/franka_msgs__rosidl_generator_c.dir/build.make:196: rosidl_generator_c/franka_msgs/action/error_recovery.h] Error 1
+[1.004s] make[1]: *** [CMakeFiles/Makefile2:254: CMakeFiles/franka_msgs__rosidl_generator_c.dir/all] Error 2
+[1.004s] make[1]: *** Waiting for unfinished jobs....
+[1.005s] Traceback (most recent call last):
+[1.005s]   File "/opt/ros/foxy/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp", line 8, in <module>
+[1.005s]     from rosidl_generator_cpp import generate_cpp
+[1.005s]   File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_generator_cpp/__init__.py", line 17, in <module>
+[1.005s]     from rosidl_cmake import generate_files
+[1.005s]   File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_cmake/__init__.py", line 24, in <module>
+[1.005s]     from rosidl_parser.parser import parse_idl_file
+[1.005s]   File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_parser/parser.py", line 20, in <module>
+[1.005s]     from lark import Lark
+[1.005s] ModuleNotFoundError: No module named 'lark'
+[1.008s] make[2]: *** [CMakeFiles/franka_msgs__cpp.dir/build.make:281: rosidl_generator_cpp/franka_msgs/action/error_recovery.hpp] Error 1
+[1.008s] make[1]: *** [CMakeFiles/Makefile2:418: CMakeFiles/franka_msgs__cpp.dir/all] Error 2
+[1.008s] make: *** [Makefile:146: all] Error 2
+[1.009s] Invoked command in '/home/gordon/grasp/build/franka_msgs' returned '2': CMAKE_PREFIX_PATH=/home/gordon/grasp/install/my_python_package:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(grasp38) /usr/bin/cmake --build /home/gordon/grasp/build/franka_msgs -- -j20 -l20

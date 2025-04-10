@@ -1,0 +1,140 @@
+Retrieving notices: - \ | done
+Channels:
+ - defaults
+Platform: linux-64
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /home/gordon/miniconda3/envs/grasp38
+
+  added / updated specs:
+    - scipy
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    libgfortran-ng-11.2.0      |       h00389a5_1          20 KB
+    libgfortran5-11.2.0        |       h1234567_1         2.0 MB
+    packaging-24.1             |   py38h06a4308_0         147 KB
+    platformdirs-3.10.0        |   py38h06a4308_0          33 KB
+    pooch-1.7.0                |   py38h06a4308_0          81 KB
+    scipy-1.10.1               |   py38hf6e8229_1        22.4 MB
+    ------------------------------------------------------------
+                                           Total:        24.7 MB
+
+The following NEW packages will be INSTALLED:
+
+  blas               pkgs/main/linux-64::blas-1.0-mkl 
+  brotli-python      pkgs/main/linux-64::brotli-python-1.0.9-py38h6a678d5_8 
+  certifi            pkgs/main/linux-64::certifi-2024.8.30-py38h06a4308_0 
+  charset-normalizer pkgs/main/noarch::charset-normalizer-3.3.2-pyhd3eb1b0_0 
+  idna               pkgs/main/linux-64::idna-3.7-py38h06a4308_0 
+  intel-openmp       pkgs/main/linux-64::intel-openmp-2023.1.0-hdb19cb5_46306 
+  libgfortran-ng     pkgs/main/linux-64::libgfortran-ng-11.2.0-h00389a5_1 
+  libgfortran5       pkgs/main/linux-64::libgfortran5-11.2.0-h1234567_1 
+  mkl                pkgs/main/linux-64::mkl-2023.1.0-h213fc3f_46344 
+  mkl-service        pkgs/main/linux-64::mkl-service-2.4.0-py38h5eee18b_1 
+  packaging          pkgs/main/linux-64::packaging-24.1-py38h06a4308_0 
+  platformdirs       pkgs/main/linux-64::platformdirs-3.10.0-py38h06a4308_0 
+  pooch              pkgs/main/linux-64::pooch-1.7.0-py38h06a4308_0 
+  pysocks            pkgs/main/linux-64::pysocks-1.7.1-py38h06a4308_0 
+  requests           pkgs/main/linux-64::requests-2.32.3-py38h06a4308_0 
+  tbb                pkgs/main/linux-64::tbb-2021.8.0-hdb19cb5_0 
+  urllib3            pkgs/main/linux-64::urllib3-2.2.3-py38h06a4308_0 
+
+The following packages will be UPDATED:
+
+  scipy                      pypi/pypi::scipy-1.10.1-pypi_0 --> pkgs/main/linux-64::scipy-1.10.1-py38hf6e8229_1 
+
+
+Proceed ([y]/n)? 
+
+Downloading and Extracting Packages: ...working...scipy-1.10.1         | 22.4 MB   |            |   0% 
+libgfortran5-11.2.0  | 2.0 MB    |            |   0% [A
+
+packaging-24.1       | 147 KB    |            |   0% [A[A
+
+
+pooch-1.7.0          | 81 KB     |            |   0% [A[A[A
+
+
+
+platformdirs-3.10.0  | 33 KB     |            |   0% [A[A[A[A
+
+
+
+
+libgfortran-ng-11.2. | 20 KB     |            |   0% [A[A[A[A[A
+
+
+pooch-1.7.0          | 81 KB     | #9         |  20% [A[A[Ascipy-1.10.1         | 22.4 MB   |            |   0% 
+
+packaging-24.1       | 147 KB    | #          |  11% [A[A
+libgfortran5-11.2.0  | 2.0 MB    |            |   1% [A
+
+
+
+platformdirs-3.10.0  | 33 KB     | ####9      |  49% [A[A[A[A
+
+
+
+platformdirs-3.10.0  | 33 KB     | ########## | 100% [A[A[A[A
+
+
+pooch-1.7.0          | 81 KB     | #######8   |  79% [A[A[Ascipy-1.10.1         | 22.4 MB   |            |   0% 
+
+
+pooch-1.7.0          | 81 KB     | ########## | 100% [A[A[A
+
+packaging-24.1       | 147 KB    | ####3      |  43% [A[A
+
+
+
+platformdirs-3.10.0  | 33 KB     | ########## | 100% [A[A[A[A
+
+
+pooch-1.7.0          | 81 KB     | ########## | 100% [A[A[Ascipy-1.10.1         | 22.4 MB   |            |   1% 
+libgfortran5-11.2.0  | 2.0 MB    | 5          |   5% [A
+
+packaging-24.1       | 147 KB    | ########6  |  87% [A[A
+
+packaging-24.1       | 147 KB    | ########## | 100% [A[A
+
+packaging-24.1       | 147 KB    | ########## | 100% [A[A
+
+
+
+
+libgfortran-ng-11.2. | 20 KB     | ########1  |  81% [A[A[A[A[A
+
+
+
+
+libgfortran-ng-11.2. | 20 KB     | ########## | 100% [A[A[A[A[A
+
+
+
+
+libgfortran-ng-11.2. | 20 KB     | ########## | 100% [A[A[A[A[Ascipy-1.10.1         | 22.4 MB   | 2          |   3% 
+libgfortran5-11.2.0  | 2.0 MB    | #6         |  16% [Ascipy-1.10.1         | 22.4 MB   | 4          |   4% 
+libgfortran5-11.2.0  | 2.0 MB    | ###6       |  36% [Ascipy-1.10.1         | 22.4 MB   | 6          |   6% 
+libgfortran5-11.2.0  | 2.0 MB    | ####6      |  47% [Ascipy-1.10.1         | 22.4 MB   | 7          |   8%                                                      
+                                                     [A
+
+                                                     [A[A
+
+
+                                                     [A[A[A
+
+
+
+                                                     [A[A[A[A
+
+
+
+
+                                                     [A[A[A[A[A done

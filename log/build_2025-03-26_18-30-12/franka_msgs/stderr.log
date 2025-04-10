@@ -1,0 +1,84 @@
+[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+[0m
+[33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+  /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+  /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+  /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+  /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+  CMakeLists.txt:8 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:40 (find_package):
+  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+  CMakeLists.txt:14 (rosidl_generate_interfaces)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[31mCMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+  execute_process(/home/gordon/miniconda3/envs/grasp38/bin/python3 -m
+  rosidl_adapter --package-name franka_msgs --arguments-file
+  /home/gordon/grasp/build/franka_msgs/rosidl_adapter__arguments__franka_msgs.json
+  --output-dir
+  /home/gordon/grasp/build/franka_msgs/rosidl_adapter/franka_msgs
+  --output-file
+  /home/gordon/grasp/build/franka_msgs/rosidl_adapter/franka_msgs.idls)
+  returned error code 1:
+
+  AttributeError processing template 'action.idl.em'
+
+  Traceback (most recent call last):
+
+    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/resource/__init__.py", line 51, in evaluate_template
+      em.BUFFERED_OPT: True,
+
+  AttributeError: module 'em' has no attribute 'BUFFERED_OPT'
+
+
+
+  During handling of the above exception, another exception occurred:
+
+
+
+  Traceback (most recent call last):
+
+    File "/home/gordon/miniconda3/envs/grasp38/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+      return _run_code(code, main_globals, None,
+    File "/home/gordon/miniconda3/envs/grasp38/lib/python3.8/runpy.py", line 87, in _run_code
+      exec(code, run_globals)
+    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+      sys.exit(main())
+    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main
+      abs_idl_file = convert_to_idl(
+    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 29, in convert_to_idl
+      return convert_action_to_idl(
+    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/action/__init__.py", line 39, in convert_action_to_idl
+      expand_template('action.idl.em', data, output_file, encoding='iso-8859-1')
+    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/resource/__init__.py", line 23, in expand_template
+      content = evaluate_template(template_name, data)
+    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/resource/__init__.py", line 69, in evaluate_template
+      _interpreter.shutdown()
+
+  AttributeError: 'NoneType' object has no attribute 'shutdown'
+
+Call Stack (most recent call first):
+  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+  CMakeLists.txt:14 (rosidl_generate_interfaces)
+
+[0m

@@ -1,0 +1,3 @@
+[console_scripts]
+pose_publisher = my_python_package.pose_publisher:main
+trajectory_publisher = my_python_package.trajectory_publisher:main

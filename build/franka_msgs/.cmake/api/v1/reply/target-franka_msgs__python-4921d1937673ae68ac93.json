@@ -1,0 +1,1082 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "rosidl_generator_py/franka_msgs/libfranka_msgs__python.so"
+		}
+	],
+	"backtrace" : 5,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include",
+			"ament_execute_extensions",
+			"rosidl_generate_interfaces",
+			"install",
+			"target_link_libraries",
+			"rosidl_target_interfaces",
+			"ament_target_dependencies",
+			"set_target_properties",
+			"find_package",
+			"add_dependencies",
+			"set_lib_properties",
+			"add_definitions",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"/opt/ros/foxy/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake",
+			"/opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake",
+			"/opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake",
+			"CMakeLists.txt",
+			"/opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake",
+			"/opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake",
+			"/opt/ros/foxy/share/rosidl_generator_c/cmake/rosidl_generator_c_generate_interfaces.cmake",
+			"/opt/ros/foxy/share/std_msgs/cmake/std_msgs__rosidl_typesupport_introspection_cppExport.cmake",
+			"/opt/ros/foxy/share/std_msgs/cmake/ament_cmake_export_targets-extras.cmake",
+			"/opt/ros/foxy/share/std_msgs/cmake/std_msgsConfig.cmake",
+			"/opt/ros/foxy/share/std_msgs/cmake/std_msgs__rosidl_typesupport_introspection_cExport.cmake",
+			"/opt/ros/foxy/share/std_msgs/cmake/std_msgs__rosidl_typesupport_cppExport.cmake",
+			"/opt/ros/foxy/share/rosidl_typesupport_c/cmake/rosidl_typesupport_c_generate_interfaces.cmake",
+			"/opt/ros/foxy/share/rosidl_typesupport_c/cmake/rosidl_typesupport_cExport.cmake",
+			"/opt/ros/foxy/share/rosidl_typesupport_c/cmake/ament_cmake_export_targets-extras.cmake",
+			"/opt/ros/foxy/share/rosidl_typesupport_c/cmake/rosidl_typesupport_cConfig.cmake",
+			"/opt/ros/foxy/share/rosidl_default_generators/cmake/rosidl_default_generators-extras.cmake",
+			"/opt/ros/foxy/share/rosidl_default_generators/cmake/rosidl_default_generatorsConfig.cmake",
+			"/opt/ros/foxy/share/rcutils/cmake/rcutilsExport.cmake",
+			"/opt/ros/foxy/share/rcutils/cmake/ament_cmake_export_targets-extras.cmake",
+			"/opt/ros/foxy/share/rcutils/cmake/rcutilsConfig.cmake",
+			"/opt/ros/foxy/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/opt/ros/foxy/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake",
+			"/opt/ros/foxy/share/rosidl_generator_c/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/opt/ros/foxy/share/rosidl_generator_c/cmake/rosidl_generator_cConfig.cmake",
+			"/opt/ros/foxy/share/rosidl_typesupport_c/cmake/rosidl_typesupport_c-extras.cmake",
+			"/opt/ros/foxy/share/ament_cmake_ros/cmake/ament_cmake_ros-extras.cmake",
+			"/opt/ros/foxy/share/ament_cmake_ros/cmake/ament_cmake_rosConfig.cmake",
+			"/opt/ros/foxy/share/rosidl_typesupport_fastrtps_c/cmake/rosidl_typesupport_fastrtps_c_generate_interfaces.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 14,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 286,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 48,
+				"parent" : 2
+			},
+			{
+				"file" : 0,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 175,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 320,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 176,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 184,
+				"parent" : 4
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 221,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 53,
+				"parent" : 9
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 308,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 308,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 308,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 308,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 308,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 308,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 48,
+				"parent" : 2
+			},
+			{
+				"file" : 6,
+				"parent" : 17
+			},
+			{
+				"command" : 7,
+				"file" : 6,
+				"line" : 126,
+				"parent" : 18
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 145,
+				"parent" : 19
+			},
+			{
+				"command" : 7,
+				"file" : 6,
+				"line" : 126,
+				"parent" : 18
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 145,
+				"parent" : 21
+			},
+			{
+				"command" : 7,
+				"file" : 6,
+				"line" : 126,
+				"parent" : 18
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 145,
+				"parent" : 23
+			},
+			{
+				"command" : 7,
+				"file" : 6,
+				"line" : 126,
+				"parent" : 18
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 145,
+				"parent" : 25
+			},
+			{
+				"command" : 7,
+				"file" : 6,
+				"line" : 126,
+				"parent" : 18
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 145,
+				"parent" : 27
+			},
+			{
+				"command" : 7,
+				"file" : 6,
+				"line" : 126,
+				"parent" : 18
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 145,
+				"parent" : 29
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"file" : 9,
+				"parent" : 31
+			},
+			{
+				"command" : 1,
+				"file" : 9,
+				"line" : 41,
+				"parent" : 32
+			},
+			{
+				"file" : 8,
+				"parent" : 33
+			},
+			{
+				"command" : 1,
+				"file" : 8,
+				"line" : 9,
+				"parent" : 34
+			},
+			{
+				"file" : 7,
+				"parent" : 35
+			},
+			{
+				"command" : 8,
+				"file" : 7,
+				"line" : 56,
+				"parent" : 36
+			},
+			{
+				"command" : 1,
+				"file" : 8,
+				"line" : 9,
+				"parent" : 34
+			},
+			{
+				"file" : 10,
+				"parent" : 38
+			},
+			{
+				"command" : 8,
+				"file" : 10,
+				"line" : 56,
+				"parent" : 39
+			},
+			{
+				"command" : 1,
+				"file" : 8,
+				"line" : 9,
+				"parent" : 34
+			},
+			{
+				"file" : 11,
+				"parent" : 41
+			},
+			{
+				"command" : 8,
+				"file" : 11,
+				"line" : 56,
+				"parent" : 42
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 48,
+				"parent" : 2
+			},
+			{
+				"file" : 12,
+				"parent" : 44
+			},
+			{
+				"command" : 7,
+				"file" : 12,
+				"line" : 134,
+				"parent" : 45
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 145,
+				"parent" : 46
+			},
+			{
+				"command" : 7,
+				"file" : 6,
+				"line" : 133,
+				"parent" : 18
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 145,
+				"parent" : 48
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"file" : 17,
+				"parent" : 50
+			},
+			{
+				"command" : 1,
+				"file" : 17,
+				"line" : 41,
+				"parent" : 51
+			},
+			{
+				"file" : 16,
+				"parent" : 52
+			},
+			{
+				"command" : 9,
+				"file" : 16,
+				"line" : 21,
+				"parent" : 53
+			},
+			{
+				"file" : 15,
+				"parent" : 54
+			},
+			{
+				"command" : 1,
+				"file" : 15,
+				"line" : 41,
+				"parent" : 55
+			},
+			{
+				"file" : 14,
+				"parent" : 56
+			},
+			{
+				"command" : 1,
+				"file" : 14,
+				"line" : 9,
+				"parent" : 57
+			},
+			{
+				"file" : 13,
+				"parent" : 58
+			},
+			{
+				"command" : 8,
+				"file" : 13,
+				"line" : 56,
+				"parent" : 59
+			},
+			{
+				"command" : 1,
+				"file" : 15,
+				"line" : 41,
+				"parent" : 55
+			},
+			{
+				"file" : 25,
+				"parent" : 61
+			},
+			{
+				"command" : 9,
+				"file" : 25,
+				"line" : 11,
+				"parent" : 62
+			},
+			{
+				"file" : 24,
+				"parent" : 63
+			},
+			{
+				"command" : 1,
+				"file" : 24,
+				"line" : 41,
+				"parent" : 64
+			},
+			{
+				"file" : 23,
+				"parent" : 65
+			},
+			{
+				"command" : 9,
+				"file" : 23,
+				"line" : 21,
+				"parent" : 66
+			},
+			{
+				"file" : 22,
+				"parent" : 67
+			},
+			{
+				"command" : 1,
+				"file" : 22,
+				"line" : 41,
+				"parent" : 68
+			},
+			{
+				"file" : 21,
+				"parent" : 69
+			},
+			{
+				"command" : 9,
+				"file" : 21,
+				"line" : 21,
+				"parent" : 70
+			},
+			{
+				"file" : 20,
+				"parent" : 71
+			},
+			{
+				"command" : 1,
+				"file" : 20,
+				"line" : 41,
+				"parent" : 72
+			},
+			{
+				"file" : 19,
+				"parent" : 73
+			},
+			{
+				"command" : 1,
+				"file" : 19,
+				"line" : 9,
+				"parent" : 74
+			},
+			{
+				"file" : 18,
+				"parent" : 75
+			},
+			{
+				"command" : 8,
+				"file" : 18,
+				"line" : 56,
+				"parent" : 76
+			},
+			{
+				"command" : 10,
+				"file" : 4,
+				"line" : 50,
+				"parent" : 9
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 178,
+				"parent" : 4
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 312,
+				"parent" : 4
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 168,
+				"parent" : 80
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 48,
+				"parent" : 2
+			},
+			{
+				"file" : 28,
+				"parent" : 82
+			},
+			{
+				"command" : 9,
+				"file" : 28,
+				"line" : 15,
+				"parent" : 83
+			},
+			{
+				"file" : 27,
+				"parent" : 84
+			},
+			{
+				"command" : 1,
+				"file" : 27,
+				"line" : 41,
+				"parent" : 85
+			},
+			{
+				"file" : 26,
+				"parent" : 86
+			},
+			{
+				"command" : 12,
+				"file" : 26,
+				"line" : 25,
+				"parent" : 87
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 188,
+				"parent" : 4
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 218,
+				"parent" : 4
+			},
+			{
+				"command" : 13,
+				"file" : 4,
+				"line" : 52,
+				"parent" : 9
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-fPIC"
+				},
+				{
+					"backtrace" : 81,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 81,
+					"fragment" : "-Wextra"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 7,
+					"define" : "RCUTILS_ENABLE_FAULT_INJECTION"
+				},
+				{
+					"backtrace" : 88,
+					"define" : "ROS_PACKAGE_NAME=\"franka_msgs\""
+				},
+				{
+					"define" : "franka_msgs__python_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 89,
+					"path" : "/home/gordon/grasp/build/franka_msgs/rosidl_generator_c"
+				},
+				{
+					"backtrace" : 89,
+					"path" : "/home/gordon/grasp/build/franka_msgs/rosidl_generator_py"
+				},
+				{
+					"backtrace" : 89,
+					"path" : "/home/gordon/miniconda3/envs/grasp38/include/python3.8"
+				},
+				{
+					"backtrace" : 90,
+					"path" : "/home/gordon/miniconda3/envs/grasp38/lib/python3.8/site-packages/numpy/core/include"
+				},
+				{
+					"backtrace" : 91,
+					"path" : "/home/gordon/grasp/build/franka_msgs/rosidl_typesupport_c"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/opt/ros/foxy/include"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 78,
+			"id" : "franka_msgs::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "franka_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 79,
+			"id" : "franka_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 79,
+			"id" : "franka_msgs__py::@2879cf63e72700d1419c"
+		}
+	],
+	"id" : "franka_msgs__python::@6890427a1f51a3e7e1df",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 6,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 6,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/home/gordon/grasp/install/franka_msgs"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/gordon/grasp/build/franka_msgs:/home/gordon/miniconda3/envs/grasp38/lib:/opt/ros/foxy/share/std_msgs/cmake/../../../lib:/opt/ros/foxy/share/builtin_interfaces/cmake/../../../lib:/opt/ros/foxy/share/geometry_msgs/cmake/../../../lib:/opt/ros/foxy/share/sensor_msgs/cmake/../../../lib:/opt/ros/foxy/share/action_msgs/cmake/../../../lib:/opt/ros/foxy/share/unique_identifier_msgs/cmake/../../../lib:/opt/ros/foxy/lib:",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "libfranka_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "/home/gordon/miniconda3/envs/grasp38/lib/libpython3.8.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "libfranka_msgs__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "/opt/ros/foxy/share/std_msgs/cmake/../../../lib/libstd_msgs__python.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "/opt/ros/foxy/share/builtin_interfaces/cmake/../../../lib/libbuiltin_interfaces__python.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "/opt/ros/foxy/share/geometry_msgs/cmake/../../../lib/libgeometry_msgs__python.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "/opt/ros/foxy/share/sensor_msgs/cmake/../../../lib/libsensor_msgs__python.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "/opt/ros/foxy/share/action_msgs/cmake/../../../lib/libaction_msgs__python.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 16,
+				"fragment" : "/opt/ros/foxy/share/unique_identifier_msgs/cmake/../../../lib/libunique_identifier_msgs__python.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "/opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "/opt/ros/foxy/lib/libsensor_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "/opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "/opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "/opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 22,
+				"fragment" : "/opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 22,
+				"fragment" : "/opt/ros/foxy/lib/libgeometry_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 22,
+				"fragment" : "/opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 22,
+				"fragment" : "/opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 22,
+				"fragment" : "/opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 24,
+				"fragment" : "/opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 24,
+				"fragment" : "/opt/ros/foxy/lib/libstd_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 24,
+				"fragment" : "/opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 24,
+				"fragment" : "/opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 24,
+				"fragment" : "/opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 26,
+				"fragment" : "/opt/ros/foxy/lib/libaction_msgs__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 26,
+				"fragment" : "/opt/ros/foxy/lib/libaction_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 26,
+				"fragment" : "/opt/ros/foxy/lib/libaction_msgs__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 26,
+				"fragment" : "/opt/ros/foxy/lib/libaction_msgs__rosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 26,
+				"fragment" : "/opt/ros/foxy/lib/libaction_msgs__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 28,
+				"fragment" : "/opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 28,
+				"fragment" : "/opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 28,
+				"fragment" : "/opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 28,
+				"fragment" : "/opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 28,
+				"fragment" : "/opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 30,
+				"fragment" : "/opt/ros/foxy/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 30,
+				"fragment" : "/opt/ros/foxy/lib/libunique_identifier_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 30,
+				"fragment" : "/opt/ros/foxy/lib/libunique_identifier_msgs__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 30,
+				"fragment" : "/opt/ros/foxy/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 37,
+				"fragment" : "/opt/ros/foxy/lib/librosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 40,
+				"fragment" : "/opt/ros/foxy/lib/librosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 30,
+				"fragment" : "/opt/ros/foxy/lib/libunique_identifier_msgs__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 43,
+				"fragment" : "/opt/ros/foxy/lib/librosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 47,
+				"fragment" : "/opt/ros/foxy/lib/librosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 49,
+				"fragment" : "/opt/ros/foxy/lib/librosidl_runtime_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 60,
+				"fragment" : "/opt/ros/foxy/lib/librcpputils.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 49,
+				"fragment" : "/opt/ros/foxy/lib/librcutils.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 77,
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "franka_msgs__python",
+	"nameOnDisk" : "libfranka_msgs__python.so",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/gordon/grasp/build/franka_msgs/rosidl_generator_py/franka_msgs/action/_error_recovery_s.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/gordon/grasp/build/franka_msgs/rosidl_generator_py/franka_msgs/action/_grasp_s.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/gordon/grasp/build/franka_msgs/rosidl_generator_py/franka_msgs/action/_homing_s.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/gordon/grasp/build/franka_msgs/rosidl_generator_py/franka_msgs/action/_move_s.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/gordon/grasp/build/franka_msgs/rosidl_generator_py/franka_msgs/msg/_collision_indicators_s.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/gordon/grasp/build/franka_msgs/rosidl_generator_py/franka_msgs/msg/_elbow_s.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/gordon/grasp/build/franka_msgs/rosidl_generator_py/franka_msgs/msg/_errors_s.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/gordon/grasp/build/franka_msgs/rosidl_generator_py/franka_msgs/msg/_grasp_epsilon_s.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/gordon/grasp/build/franka_msgs/rosidl_generator_py/franka_msgs/msg/_franka_robot_state_s.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/gordon/grasp/build/franka_msgs/rosidl_generator_py/franka_msgs/srv/_set_cartesian_stiffness_s.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/gordon/grasp/build/franka_msgs/rosidl_generator_py/franka_msgs/srv/_set_tcp_frame_s.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/gordon/grasp/build/franka_msgs/rosidl_generator_py/franka_msgs/srv/_set_force_torque_collision_behavior_s.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/gordon/grasp/build/franka_msgs/rosidl_generator_py/franka_msgs/srv/_set_full_collision_behavior_s.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/gordon/grasp/build/franka_msgs/rosidl_generator_py/franka_msgs/srv/_set_joint_stiffness_s.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/gordon/grasp/build/franka_msgs/rosidl_generator_py/franka_msgs/srv/_set_stiffness_frame_s.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/gordon/grasp/build/franka_msgs/rosidl_generator_py/franka_msgs/srv/_set_load_s.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

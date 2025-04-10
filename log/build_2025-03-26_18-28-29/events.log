@@ -1,0 +1,248 @@
+[0.000000] (-) TimerEvent: {}
+[0.000489] (franka_msgs) JobQueued: {'identifier': 'franka_msgs', 'dependencies': OrderedDict()}
+[0.000547] (integration_launch_testing) JobQueued: {'identifier': 'integration_launch_testing', 'dependencies': OrderedDict()}
+[0.000557] (my_python_package) JobQueued: {'identifier': 'my_python_package', 'dependencies': OrderedDict()}
+[0.000565] (franka_gripper) JobQueued: {'identifier': 'franka_gripper', 'dependencies': OrderedDict([('franka_msgs', '/home/gordon/grasp/install/franka_msgs')])}
+[0.000574] (franka_hardware) JobQueued: {'identifier': 'franka_hardware', 'dependencies': OrderedDict([('franka_msgs', '/home/gordon/grasp/install/franka_msgs')])}
+[0.000581] (franka_fr3_moveit_config) JobQueued: {'identifier': 'franka_fr3_moveit_config', 'dependencies': OrderedDict([('franka_msgs', '/home/gordon/grasp/install/franka_msgs'), ('franka_gripper', '/home/gordon/grasp/install/franka_gripper'), ('franka_hardware', '/home/gordon/grasp/install/franka_hardware')])}
+[0.000590] (franka_ign_ros2_control) JobQueued: {'identifier': 'franka_ign_ros2_control', 'dependencies': OrderedDict([('franka_msgs', '/home/gordon/grasp/install/franka_msgs'), ('franka_hardware', '/home/gordon/grasp/install/franka_hardware')])}
+[0.000597] (franka_semantic_components) JobQueued: {'identifier': 'franka_semantic_components', 'dependencies': OrderedDict([('franka_msgs', '/home/gordon/grasp/install/franka_msgs'), ('franka_hardware', '/home/gordon/grasp/install/franka_hardware')])}
+[0.000604] (franka_example_controllers) JobQueued: {'identifier': 'franka_example_controllers', 'dependencies': OrderedDict([('franka_msgs', '/home/gordon/grasp/install/franka_msgs'), ('franka_hardware', '/home/gordon/grasp/install/franka_hardware'), ('franka_semantic_components', '/home/gordon/grasp/install/franka_semantic_components')])}
+[0.000612] (franka_gazebo_bringup) JobQueued: {'identifier': 'franka_gazebo_bringup', 'dependencies': OrderedDict([('franka_msgs', '/home/gordon/grasp/install/franka_msgs'), ('franka_hardware', '/home/gordon/grasp/install/franka_hardware'), ('franka_ign_ros2_control', '/home/gordon/grasp/install/franka_ign_ros2_control')])}
+[0.000620] (franka_robot_state_broadcaster) JobQueued: {'identifier': 'franka_robot_state_broadcaster', 'dependencies': OrderedDict([('franka_msgs', '/home/gordon/grasp/install/franka_msgs'), ('franka_hardware', '/home/gordon/grasp/install/franka_hardware'), ('franka_semantic_components', '/home/gordon/grasp/install/franka_semantic_components')])}
+[0.000628] (franka_bringup) JobQueued: {'identifier': 'franka_bringup', 'dependencies': OrderedDict([('franka_msgs', '/home/gordon/grasp/install/franka_msgs'), ('franka_hardware', '/home/gordon/grasp/install/franka_hardware'), ('franka_semantic_components', '/home/gordon/grasp/install/franka_semantic_components'), ('franka_robot_state_broadcaster', '/home/gordon/grasp/install/franka_robot_state_broadcaster')])}
+[0.000639] (franka_ros2) JobQueued: {'identifier': 'franka_ros2', 'dependencies': OrderedDict([('franka_msgs', '/home/gordon/grasp/install/franka_msgs'), ('franka_gripper', '/home/gordon/grasp/install/franka_gripper'), ('franka_hardware', '/home/gordon/grasp/install/franka_hardware'), ('franka_fr3_moveit_config', '/home/gordon/grasp/install/franka_fr3_moveit_config'), ('franka_ign_ros2_control', '/home/gordon/grasp/install/franka_ign_ros2_control'), ('franka_semantic_components', '/home/gordon/grasp/install/franka_semantic_components'), ('franka_example_controllers', '/home/gordon/grasp/install/franka_example_controllers'), ('franka_gazebo_bringup', '/home/gordon/grasp/install/franka_gazebo_bringup'), ('franka_robot_state_broadcaster', '/home/gordon/grasp/install/franka_robot_state_broadcaster'), ('franka_bringup', '/home/gordon/grasp/install/franka_bringup')])}
+[0.000653] (franka_msgs) JobStarted: {'identifier': 'franka_msgs'}
+[0.005014] (integration_launch_testing) JobStarted: {'identifier': 'integration_launch_testing'}
+[0.007431] (my_python_package) JobStarted: {'identifier': 'my_python_package'}
+[0.012148] (franka_msgs) JobProgress: {'identifier': 'franka_msgs', 'progress': 'cmake'}
+[0.012459] (franka_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/gordon/grasp/src/franka_ros2/franka_msgs', '-DCMAKE_INSTALL_PREFIX=/home/gordon/grasp/install/franka_msgs'], 'cwd': '/home/gordon/grasp/build/franka_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(grasp38)'), ('LANGUAGE', 'en_CA:en'), ('USER', 'gordon'), ('SSH_AGENT_PID', '1670'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/gordon/Desktop/cuda-11.1/lib64:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/gordon'), ('CONDA_SHLVL', '2'), ('OLDPWD', '/home/gordon'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1573'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=62c9c0da3a7a36c11ffadb1167e466b8'), ('COLORTERM', 'truecolor'), ('TORCH_CUDA_ARCH_LIST', '7.5+PTX'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/gordon/grasp/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'gordon'), ('JOURNAL_STREAM', '8:54112'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gordon'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/gordon/Desktop/cuda-11.1/bin:/opt/ros/foxy/bin:/home/gordon/miniconda3/envs/grasp38/bin:/home/gordon/miniconda3/condabin:/home/gordon/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/gordon-ROG-Strix-G614JV-G614JV:@/tmp/.ICE-unix/1706,unix/gordon-ROG-Strix-G614JV-G614JV:/tmp/.ICE-unix/1706'), ('INVOCATION_ID', '22c4705d19044fee89d6697ce5c9c9b5'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ffbdaae4_87c1_4f37_b717_a6dc1789d485'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('CONDA_PREFIX_1', '/home/gordon/miniconda3'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.88'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/gordon/grasp/install/my_python_package:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/gordon/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'grasp38'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gordon/grasp/build/franka_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('CUDA_HOME', '/home/gordon/Desktop/cuda-11.1'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/gordon/miniconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=62c9c0da3a7a36c11ffadb1167e466b8'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/gordon/grasp/install/my_python_package/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('CONDA_PREFIX', '/home/gordon/miniconda3/envs/grasp38'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/gordon/grasp/install/my_python_package:/opt/ros/foxy')]), 'shell': False}
+[0.015424] (integration_launch_testing) JobProgress: {'identifier': 'integration_launch_testing', 'progress': 'cmake'}
+[0.015720] (integration_launch_testing) Command: {'cmd': ['/usr/bin/cmake', '/home/gordon/grasp/src/franka_ros2/integration_launch_testing', '-DCMAKE_INSTALL_PREFIX=/home/gordon/grasp/install/integration_launch_testing'], 'cwd': '/home/gordon/grasp/build/integration_launch_testing', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(grasp38)'), ('LANGUAGE', 'en_CA:en'), ('USER', 'gordon'), ('SSH_AGENT_PID', '1670'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/gordon/Desktop/cuda-11.1/lib64:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/gordon'), ('CONDA_SHLVL', '2'), ('OLDPWD', '/home/gordon'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1573'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=62c9c0da3a7a36c11ffadb1167e466b8'), ('COLORTERM', 'truecolor'), ('TORCH_CUDA_ARCH_LIST', '7.5+PTX'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/gordon/grasp/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'gordon'), ('JOURNAL_STREAM', '8:54112'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gordon'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/gordon/Desktop/cuda-11.1/bin:/opt/ros/foxy/bin:/home/gordon/miniconda3/envs/grasp38/bin:/home/gordon/miniconda3/condabin:/home/gordon/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/gordon-ROG-Strix-G614JV-G614JV:@/tmp/.ICE-unix/1706,unix/gordon-ROG-Strix-G614JV-G614JV:/tmp/.ICE-unix/1706'), ('INVOCATION_ID', '22c4705d19044fee89d6697ce5c9c9b5'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ffbdaae4_87c1_4f37_b717_a6dc1789d485'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('CONDA_PREFIX_1', '/home/gordon/miniconda3'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.88'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/gordon/grasp/install/my_python_package:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/gordon/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'grasp38'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gordon/grasp/build/integration_launch_testing'), ('LC_ALL', 'en_US.UTF-8'), ('CUDA_HOME', '/home/gordon/Desktop/cuda-11.1'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/gordon/miniconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=62c9c0da3a7a36c11ffadb1167e466b8'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/gordon/grasp/install/my_python_package/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('CONDA_PREFIX', '/home/gordon/miniconda3/envs/grasp38'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/gordon/grasp/install/my_python_package:/opt/ros/foxy')]), 'shell': False}
+[0.029905] (franka_msgs) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.030072] (franka_msgs) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[0.030108] (franka_msgs) StderrLine: {'line': b'  CMake.\n'}
+[0.030139] (franka_msgs) StderrLine: {'line': b'\n'}
+[0.030170] (franka_msgs) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[0.030196] (franka_msgs) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[0.030222] (franka_msgs) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[0.030249] (franka_msgs) StderrLine: {'line': b'\n'}
+[0.030276] (franka_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[0.030300] (integration_launch_testing) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.030335] (integration_launch_testing) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[0.030359] (integration_launch_testing) StderrLine: {'line': b'  CMake.\n'}
+[0.030383] (integration_launch_testing) StderrLine: {'line': b'\n'}
+[0.030406] (integration_launch_testing) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[0.030429] (integration_launch_testing) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[0.030451] (integration_launch_testing) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[0.030474] (integration_launch_testing) StderrLine: {'line': b'\n'}
+[0.030496] (integration_launch_testing) StderrLine: {'line': b'\x1b[0m\n'}
+[0.066381] (franka_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.066582] (integration_launch_testing) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.098191] (franka_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.098360] (integration_launch_testing) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.099831] (-) TimerEvent: {}
+[0.105397] (integration_launch_testing) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.105474] (franka_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.142619] (integration_launch_testing) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.142782] (franka_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.152767] (franka_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.153307] (franka_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.153858] (franka_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.157012] (integration_launch_testing) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.157121] (integration_launch_testing) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.157573] (integration_launch_testing) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.162150] (franka_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.164740] (integration_launch_testing) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199999] (-) TimerEvent: {}
+[0.203353] (integration_launch_testing) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.203675] (franka_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.212073] (integration_launch_testing) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.212279] (integration_launch_testing) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.212694] (integration_launch_testing) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.218372] (franka_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.218622] (franka_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.218984] (franka_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.219503] (integration_launch_testing) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.222577] (franka_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.222763] (integration_launch_testing) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):\n'}
+[0.222808] (integration_launch_testing) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[0.222837] (integration_launch_testing) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[0.222864] (integration_launch_testing) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[0.222890] (integration_launch_testing) StderrLine: {'line': b'\n'}
+[0.222914] (integration_launch_testing) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.222939] (integration_launch_testing) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)\n'}
+[0.222962] (integration_launch_testing) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[0.222986] (integration_launch_testing) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.223009] (integration_launch_testing) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.223036] (integration_launch_testing) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.223065] (integration_launch_testing) StderrLine: {'line': b'  CMakeLists.txt:20 (find_package)\n'}
+[0.223088] (integration_launch_testing) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.223112] (integration_launch_testing) StderrLine: {'line': b'\x1b[0m\n'}
+[0.224710] (franka_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):\n'}
+[0.224779] (franka_msgs) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[0.224811] (franka_msgs) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[0.224838] (franka_msgs) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[0.224865] (franka_msgs) StderrLine: {'line': b'\n'}
+[0.224891] (franka_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.224916] (franka_msgs) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)\n'}
+[0.224940] (franka_msgs) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[0.224966] (franka_msgs) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.224991] (franka_msgs) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.225015] (franka_msgs) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.225039] (franka_msgs) StderrLine: {'line': b'  CMakeLists.txt:8 (find_package)\n'}
+[0.225063] (franka_msgs) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.225086] (franka_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[0.234462] (integration_launch_testing) StdoutLine: {'line': b'-- Found PythonInterp: /home/gordon/miniconda3/envs/grasp38/bin/python3 (found suitable version "3.8.20", minimum required is "3")\n'}
+[0.234554] (integration_launch_testing) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/gordon/miniconda3/envs/grasp38/bin/python3\n'}
+[0.235048] (franka_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /home/gordon/miniconda3/envs/grasp38/bin/python3 (found suitable version "3.8.20", minimum required is "3")\n'}
+[0.235120] (franka_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/gordon/miniconda3/envs/grasp38/bin/python3\n'}
+[0.300152] (-) TimerEvent: {}
+[0.324477] (franka_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.324602] (integration_launch_testing) StdoutLine: {'line': b'-- Found ament_cmake_copyright: 0.9.8 (/opt/ros/foxy/share/ament_cmake_copyright/cmake)\n'}
+[0.326173] (integration_launch_testing) StdoutLine: {'line': b'-- Found ament_cmake_flake8: 0.9.8 (/opt/ros/foxy/share/ament_cmake_flake8/cmake)\n'}
+[0.327149] (franka_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.327348] (integration_launch_testing) StdoutLine: {'line': b'-- Found ament_cmake_lint_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake_lint_cmake/cmake)\n'}
+[0.328659] (integration_launch_testing) StdoutLine: {'line': b'-- Found ament_cmake_pep257: 0.9.8 (/opt/ros/foxy/share/ament_cmake_pep257/cmake)\n'}
+[0.329916] (integration_launch_testing) StdoutLine: {'line': b'-- Found ament_cmake_xmllint: 0.9.8 (/opt/ros/foxy/share/ament_cmake_xmllint/cmake)\n'}
+[0.331467] (integration_launch_testing) StdoutLine: {'line': b'-- Found launch_testing_ament_cmake: 0.10.10 (/opt/ros/foxy/share/launch_testing_ament_cmake/cmake)\n'}
+[0.332480] (franka_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.332641] (integration_launch_testing) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[0.333100] (integration_launch_testing) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/foxy/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:45 (find_package):\n'}
+[0.333861] (integration_launch_testing) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[0.335293] (integration_launch_testing) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[0.335514] (integration_launch_testing) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[0.335698] (integration_launch_testing) StderrLine: {'line': b'\n'}
+[0.336069] (integration_launch_testing) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.336107] (integration_launch_testing) StderrLine: {'line': b'  /opt/ros/foxy/share/launch_testing_ament_cmake/cmake/launch_testing_ament_cmake-extras.cmake:18 (find_package)\n'}
+[0.336140] (integration_launch_testing) StderrLine: {'line': b'  /opt/ros/foxy/share/launch_testing_ament_cmake/cmake/launch_testing_ament_cmakeConfig.cmake:41 (include)\n'}
+[0.336297] (integration_launch_testing) StderrLine: {'line': b'  CMakeLists.txt:33 (find_package)\n'}
+[0.336326] (integration_launch_testing) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.336355] (integration_launch_testing) StderrLine: {'line': b'\x1b[0m\n'}
+[0.336385] (my_python_package) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_python_package', 'build', '--build-base', '/home/gordon/grasp/build/my_python_package/build', 'install', '--record', '/home/gordon/grasp/build/my_python_package/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/gordon/grasp/src/my_python_package', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(grasp38)', 'LANGUAGE': 'en_CA:en', 'USER': 'gordon', 'SSH_AGENT_PID': '1670', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/gordon/Desktop/cuda-11.1/lib64:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/gordon', 'CONDA_SHLVL': '2', 'OLDPWD': '/home/gordon', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1573', 'DBUS_STARTER_BUS_TYPE': 'session', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=62c9c0da3a7a36c11ffadb1167e466b8', 'COLORTERM': 'truecolor', 'TORCH_CUDA_ARCH_LIST': '7.5+PTX', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/gordon/grasp/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'gordon', 'JOURNAL_STREAM': '8:54112', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'gordon', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/gordon/Desktop/cuda-11.1/bin:/opt/ros/foxy/bin:/home/gordon/miniconda3/envs/grasp38/bin:/home/gordon/miniconda3/condabin:/home/gordon/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/gordon-ROG-Strix-G614JV-G614JV:@/tmp/.ICE-unix/1706,unix/gordon-ROG-Strix-G614JV-G614JV:/tmp/.ICE-unix/1706', 'INVOCATION_ID': '22c4705d19044fee89d6697ce5c9c9b5', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ffbdaae4_87c1_4f37_b717_a6dc1789d485', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'CONDA_PREFIX_1': '/home/gordon/miniconda3', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.88', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/gordon/grasp/install/my_python_package:/opt/ros/foxy', 'CONDA_PYTHON_EXE': '/home/gordon/miniconda3/bin/python', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': 'grasp38', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/gordon/grasp/build/my_python_package', 'LC_ALL': 'en_US.UTF-8', 'CUDA_HOME': '/home/gordon/Desktop/cuda-11.1', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/gordon/miniconda3/bin/conda', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=62c9c0da3a7a36c11ffadb1167e466b8', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/gordon/grasp/build/my_python_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gordon/grasp/install/my_python_package/lib/python3.8/site-packages:/home/gordon/grasp/install/my_python_package/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'CONDA_PREFIX': '/home/gordon/miniconda3/envs/grasp38', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[0.343712] (integration_launch_testing) StdoutLine: {'line': b'-- Found PythonInterp: /home/gordon/miniconda3/envs/grasp38/bin/python3 (found suitable version "3.8.20", minimum required is "3.5")\n'}
+[0.343892] (integration_launch_testing) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/foxy/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:133 (find_package):\n'}
+[0.343929] (integration_launch_testing) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[0.343957] (integration_launch_testing) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[0.343984] (integration_launch_testing) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[0.344009] (integration_launch_testing) StderrLine: {'line': b'\n'}
+[0.344033] (integration_launch_testing) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.344059] (integration_launch_testing) StderrLine: {'line': b'  /opt/ros/foxy/share/launch_testing_ament_cmake/cmake/launch_testing_ament_cmake-extras.cmake:18 (find_package)\n'}
+[0.344083] (integration_launch_testing) StderrLine: {'line': b'  /opt/ros/foxy/share/launch_testing_ament_cmake/cmake/launch_testing_ament_cmakeConfig.cmake:41 (include)\n'}
+[0.344113] (integration_launch_testing) StderrLine: {'line': b'  CMakeLists.txt:33 (find_package)\n'}
+[0.344136] (integration_launch_testing) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.344162] (integration_launch_testing) StderrLine: {'line': b'\x1b[0m\n'}
+[0.346375] (integration_launch_testing) StdoutLine: {'line': b'-- Found PythonLibs: /home/gordon/miniconda3/envs/grasp38/lib/libpython3.8.so (found suitable version "3.8.20", minimum required is "3.5")\n'}
+[0.346475] (integration_launch_testing) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/gordon/miniconda3/envs/grasp38/bin/python3\n'}
+[0.346540] (integration_launch_testing) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /home/gordon/miniconda3/envs/grasp38/include/python3.8\n'}
+[0.346599] (integration_launch_testing) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /home/gordon/miniconda3/envs/grasp38/lib/libpython3.8.so\n'}
+[0.357162] (integration_launch_testing) StdoutLine: {'line': b'-- Found PythonExtra: .so\n'}
+[0.372749] (integration_launch_testing) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.372903] (integration_launch_testing) StderrLine: {'line': b'  File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 21, in <module>\n'}
+[0.372967] (integration_launch_testing) StderrLine: {'line': b'    from catkin_pkg.package import parse_package_string\n'}
+[0.373026] (integration_launch_testing) StderrLine: {'line': b"ModuleNotFoundError: No module named 'catkin_pkg'\n"}
+[0.374507] (integration_launch_testing) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):\n'}
+[0.374722] (integration_launch_testing) StderrLine: {'line': b'  execute_process(/home/gordon/miniconda3/envs/grasp38/bin/python3\n'}
+[0.374786] (integration_launch_testing) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[0.374844] (integration_launch_testing) StderrLine: {'line': b'  /home/gordon/grasp/src/franka_ros2/integration_launch_testing/package.xml\n'}
+[0.374900] (integration_launch_testing) StderrLine: {'line': b'  /home/gordon/grasp/build/integration_launch_testing/ament_cmake_core/package.cmake)\n'}
+[0.374955] (integration_launch_testing) StderrLine: {'line': b'  returned error code 1\n'}
+[0.375009] (integration_launch_testing) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.375063] (integration_launch_testing) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[0.375117] (integration_launch_testing) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)\n'}
+[0.375170] (integration_launch_testing) StderrLine: {'line': b'  CMakeLists.txt:45 (ament_package)\n'}
+[0.375223] (integration_launch_testing) StderrLine: {'line': b'\n'}
+[0.375276] (integration_launch_testing) StderrLine: {'line': b'\x1b[0m\n'}
+[0.375329] (integration_launch_testing) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.377486] (integration_launch_testing) CommandEnded: {'returncode': 1}
+[0.387431] (integration_launch_testing) JobEnded: {'identifier': 'integration_launch_testing', 'rc': 1}
+[0.393278] (franka_msgs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")\n'}
+[0.400319] (-) TimerEvent: {}
+[0.410519] (franka_msgs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include\n'}
+[0.435066] (my_python_package) StdoutLine: {'line': b'running egg_info\n'}
+[0.435383] (my_python_package) StdoutLine: {'line': b'writing ../../build/my_python_package/my_python_package.egg-info/PKG-INFO\n'}
+[0.435657] (my_python_package) StdoutLine: {'line': b'writing dependency_links to ../../build/my_python_package/my_python_package.egg-info/dependency_links.txt\n'}
+[0.435809] (my_python_package) StdoutLine: {'line': b'writing entry points to ../../build/my_python_package/my_python_package.egg-info/entry_points.txt\n'}
+[0.435874] (my_python_package) StdoutLine: {'line': b'writing requirements to ../../build/my_python_package/my_python_package.egg-info/requires.txt\n'}
+[0.435935] (my_python_package) StdoutLine: {'line': b'writing top-level names to ../../build/my_python_package/my_python_package.egg-info/top_level.txt\n'}
+[0.452901] (my_python_package) StdoutLine: {'line': b"reading manifest file '../../build/my_python_package/my_python_package.egg-info/SOURCES.txt'\n"}
+[0.453487] (my_python_package) StdoutLine: {'line': b"writing manifest file '../../build/my_python_package/my_python_package.egg-info/SOURCES.txt'\n"}
+[0.453622] (my_python_package) StdoutLine: {'line': b'running build\n'}
+[0.453688] (my_python_package) StdoutLine: {'line': b'running build_py\n'}
+[0.453852] (my_python_package) StdoutLine: {'line': b'copying my_python_package/trajectory_publisher.py -> /home/gordon/grasp/build/my_python_package/build/lib/my_python_package\n'}
+[0.453938] (my_python_package) StdoutLine: {'line': b'running install\n'}
+[0.454390] (my_python_package) StdoutLine: {'line': b'running install_lib\n'}
+[0.454849] (my_python_package) StdoutLine: {'line': b'copying /home/gordon/grasp/build/my_python_package/build/lib/my_python_package/trajectory_publisher.py -> /home/gordon/grasp/install/my_python_package/lib/python3.8/site-packages/my_python_package\n'}
+[0.455093] (my_python_package) StdoutLine: {'line': b'byte-compiling /home/gordon/grasp/install/my_python_package/lib/python3.8/site-packages/my_python_package/trajectory_publisher.py to trajectory_publisher.cpython-38.pyc\n'}
+[0.456422] (my_python_package) StdoutLine: {'line': b'running install_data\n'}
+[0.456562] (my_python_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.457272] (my_python_package) StdoutLine: {'line': b"removing '/home/gordon/grasp/install/my_python_package/lib/python3.8/site-packages/my_python_package-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[0.457523] (my_python_package) StdoutLine: {'line': b'Copying ../../build/my_python_package/my_python_package.egg-info to /home/gordon/grasp/install/my_python_package/lib/python3.8/site-packages/my_python_package-0.0.0-py3.8.egg-info\n'}
+[0.457855] (my_python_package) StdoutLine: {'line': b'running install_scripts\n'}
+[0.457974] (franka_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.466501] (my_python_package) StdoutLine: {'line': b'Installing pose_publisher script to /home/gordon/grasp/install/my_python_package/lib/my_python_package\n'}
+[0.466629] (my_python_package) StdoutLine: {'line': b'Installing trajectory_publisher script to /home/gordon/grasp/install/my_python_package/lib/my_python_package\n'}
+[0.466800] (my_python_package) StdoutLine: {'line': b"writing list of installed files to '/home/gordon/grasp/build/my_python_package/install.log'\n"}
+[0.473962] (franka_msgs) StdoutLine: {'line': b'-- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)\n'}
+[0.476632] (my_python_package) JobEnded: {'identifier': 'my_python_package', 'rc': 'SIGINT'}
+[0.494293] (franka_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[0.500463] (-) TimerEvent: {}
+[0.512375] (franka_msgs) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[0.550972] (franka_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:40 (find_package):\n'}
+[0.551053] (franka_msgs) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[0.551084] (franka_msgs) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[0.551110] (franka_msgs) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[0.551140] (franka_msgs) StderrLine: {'line': b'\n'}
+[0.551165] (franka_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.551189] (franka_msgs) StderrLine: {'line': b'  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[0.551214] (franka_msgs) StderrLine: {'line': b'  CMakeLists.txt:14 (rosidl_generate_interfaces)\n'}
+[0.551239] (franka_msgs) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.551266] (franka_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[0.560936] (franka_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /home/gordon/miniconda3/envs/grasp38/bin/python3 (found version "3.8.20")\n'}
+[0.583818] (franka_msgs) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):\n'}
+[0.583906] (franka_msgs) StderrLine: {'line': b'  execute_process(/home/gordon/miniconda3/envs/grasp38/bin/python3 -m\n'}
+[0.583937] (franka_msgs) StderrLine: {'line': b'  rosidl_adapter --package-name franka_msgs --arguments-file\n'}
+[0.583965] (franka_msgs) StderrLine: {'line': b'  /home/gordon/grasp/build/franka_msgs/rosidl_adapter__arguments__franka_msgs.json\n'}
+[0.583991] (franka_msgs) StderrLine: {'line': b'  --output-dir\n'}
+[0.584015] (franka_msgs) StderrLine: {'line': b'  /home/gordon/grasp/build/franka_msgs/rosidl_adapter/franka_msgs\n'}
+[0.584040] (franka_msgs) StderrLine: {'line': b'  --output-file\n'}
+[0.584065] (franka_msgs) StderrLine: {'line': b'  /home/gordon/grasp/build/franka_msgs/rosidl_adapter/franka_msgs.idls)\n'}
+[0.584089] (franka_msgs) StderrLine: {'line': b'  returned error code 1:\n'}
+[0.584113] (franka_msgs) StderrLine: {'line': b'\n'}
+[0.584137] (franka_msgs) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[0.584160] (franka_msgs) StderrLine: {'line': b'\n'}
+[0.584183] (franka_msgs) StderrLine: {'line': b'    File "/home/gordon/miniconda3/envs/grasp38/lib/python3.8/runpy.py", line 194, in _run_module_as_main\n'}
+[0.584211] (franka_msgs) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[0.584234] (franka_msgs) StderrLine: {'line': b'    File "/home/gordon/miniconda3/envs/grasp38/lib/python3.8/runpy.py", line 87, in _run_code\n'}
+[0.584257] (franka_msgs) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[0.584280] (franka_msgs) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[0.584304] (franka_msgs) StderrLine: {'line': b'      sys.exit(main())\n'}
+[0.584326] (franka_msgs) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[0.584349] (franka_msgs) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[0.584371] (franka_msgs) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 28, in convert_to_idl\n'}
+[0.584394] (franka_msgs) StderrLine: {'line': b'      from rosidl_adapter.action import convert_action_to_idl\n'}
+[0.584417] (franka_msgs) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/action/__init__.py", line 16, in <module>\n'}
+[0.584440] (franka_msgs) StderrLine: {'line': b'      from rosidl_adapter.resource import expand_template\n'}
+[0.584463] (franka_msgs) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/resource/__init__.py", line 19, in <module>\n'}
+[0.584486] (franka_msgs) StderrLine: {'line': b'      import em\n'}
+[0.584510] (franka_msgs) StderrLine: {'line': b'\n'}
+[0.584533] (franka_msgs) StderrLine: {'line': b"  ModuleNotFoundError: No module named 'em'\n"}
+[0.584557] (franka_msgs) StderrLine: {'line': b'\n'}
+[0.584580] (franka_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.584603] (franka_msgs) StderrLine: {'line': b'  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[0.584628] (franka_msgs) StderrLine: {'line': b'  CMakeLists.txt:14 (rosidl_generate_interfaces)\n'}
+[0.584651] (franka_msgs) StderrLine: {'line': b'\n'}
+[0.584674] (franka_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[0.584697] (franka_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.588765] (franka_msgs) JobEnded: {'identifier': 'franka_msgs', 'rc': 'SIGINT'}
+[0.599207] (franka_gripper) JobSkipped: {'identifier': 'franka_gripper'}
+[0.599253] (franka_hardware) JobSkipped: {'identifier': 'franka_hardware'}
+[0.599269] (franka_fr3_moveit_config) JobSkipped: {'identifier': 'franka_fr3_moveit_config'}
+[0.599421] (franka_ign_ros2_control) JobSkipped: {'identifier': 'franka_ign_ros2_control'}
+[0.599451] (franka_semantic_components) JobSkipped: {'identifier': 'franka_semantic_components'}
+[0.599463] (franka_example_controllers) JobSkipped: {'identifier': 'franka_example_controllers'}
+[0.599473] (franka_gazebo_bringup) JobSkipped: {'identifier': 'franka_gazebo_bringup'}
+[0.599786] (franka_robot_state_broadcaster) JobSkipped: {'identifier': 'franka_robot_state_broadcaster'}
+[0.599816] (franka_bringup) JobSkipped: {'identifier': 'franka_bringup'}
+[0.599828] (franka_ros2) JobSkipped: {'identifier': 'franka_ros2'}
+[0.599839] (-) EventReactorShutdown: {}

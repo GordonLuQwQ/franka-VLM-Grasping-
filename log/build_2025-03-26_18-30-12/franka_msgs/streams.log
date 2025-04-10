@@ -1,0 +1,98 @@
+[0.012s] Invoking command in '/home/gordon/grasp/build/franka_msgs': CMAKE_PREFIX_PATH=/home/gordon/grasp/install/my_python_package:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(grasp38) /usr/bin/cmake /home/gordon/grasp/src/franka_ros2/franka_msgs -DCMAKE_INSTALL_PREFIX=/home/gordon/grasp/install/franka_msgs
+[0.018s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.018s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.018s]   CMake.
+[0.018s] 
+[0.018s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.018s]   to tell CMake that the project requires at least <min> but has been updated
+[0.018s]   to work with policies introduced by <max> or earlier.
+[0.018s] 
+[0.018s] [0m
+[0.021s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.022s] [33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.022s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.022s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.022s]   the cmake_policy command to set the policy and suppress this warning.
+[0.022s] 
+[0.022s] Call Stack (most recent call first):
+[0.022s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.022s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.022s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.022s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.022s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.022s]   CMakeLists.txt:8 (find_package)
+[0.022s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.022s] [0m
+[0.032s] -- Found PythonInterp: /home/gordon/miniconda3/envs/grasp38/bin/python3 (found suitable version "3.8.20", minimum required is "3")
+[0.033s] -- Using PYTHON_EXECUTABLE: /home/gordon/miniconda3/envs/grasp38/bin/python3
+[0.104s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.105s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.106s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.180s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.190s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[0.204s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.220s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.255s] [33mCMake Warning (dev) at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:40 (find_package):
+[0.255s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.255s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.255s]   the cmake_policy command to set the policy and suppress this warning.
+[0.255s] 
+[0.255s] Call Stack (most recent call first):
+[0.255s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.255s]   CMakeLists.txt:14 (rosidl_generate_interfaces)
+[0.255s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.255s] [0m
+[0.265s] -- Found PythonInterp: /home/gordon/miniconda3/envs/grasp38/bin/python3 (found version "3.8.20")
+[0.291s] [31mCMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[0.291s]   execute_process(/home/gordon/miniconda3/envs/grasp38/bin/python3 -m
+[0.291s]   rosidl_adapter --package-name franka_msgs --arguments-file
+[0.291s]   /home/gordon/grasp/build/franka_msgs/rosidl_adapter__arguments__franka_msgs.json
+[0.291s]   --output-dir
+[0.291s]   /home/gordon/grasp/build/franka_msgs/rosidl_adapter/franka_msgs
+[0.291s]   --output-file
+[0.291s]   /home/gordon/grasp/build/franka_msgs/rosidl_adapter/franka_msgs.idls)
+[0.291s]   returned error code 1:
+[0.291s] 
+[0.291s]   AttributeError processing template 'action.idl.em'
+[0.291s] 
+[0.291s]   Traceback (most recent call last):
+[0.291s] 
+[0.291s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/resource/__init__.py", line 51, in evaluate_template
+[0.291s]       em.BUFFERED_OPT: True,
+[0.291s] 
+[0.291s]   AttributeError: module 'em' has no attribute 'BUFFERED_OPT'
+[0.291s] 
+[0.292s] 
+[0.292s] 
+[0.292s]   During handling of the above exception, another exception occurred:
+[0.292s] 
+[0.292s] 
+[0.292s] 
+[0.292s]   Traceback (most recent call last):
+[0.292s] 
+[0.292s]     File "/home/gordon/miniconda3/envs/grasp38/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+[0.292s]       return _run_code(code, main_globals, None,
+[0.292s]     File "/home/gordon/miniconda3/envs/grasp38/lib/python3.8/runpy.py", line 87, in _run_code
+[0.292s]       exec(code, run_globals)
+[0.292s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.292s]       sys.exit(main())
+[0.292s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main
+[0.292s]       abs_idl_file = convert_to_idl(
+[0.292s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 29, in convert_to_idl
+[0.292s]       return convert_action_to_idl(
+[0.292s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/action/__init__.py", line 39, in convert_action_to_idl
+[0.292s]       expand_template('action.idl.em', data, output_file, encoding='iso-8859-1')
+[0.292s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/resource/__init__.py", line 23, in expand_template
+[0.292s]       content = evaluate_template(template_name, data)
+[0.292s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/resource/__init__.py", line 69, in evaluate_template
+[0.292s]       _interpreter.shutdown()
+[0.292s] 
+[0.292s]   AttributeError: 'NoneType' object has no attribute 'shutdown'
+[0.292s] 
+[0.292s] Call Stack (most recent call first):
+[0.292s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.292s]   CMakeLists.txt:14 (rosidl_generate_interfaces)
+[0.292s] 
+[0.292s] [0m
+[0.292s] -- Configuring incomplete, errors occurred!
+[0.295s] Invoked command in '/home/gordon/grasp/build/franka_msgs' returned '1': CMAKE_PREFIX_PATH=/home/gordon/grasp/install/my_python_package:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(grasp38) /usr/bin/cmake /home/gordon/grasp/src/franka_ros2/franka_msgs -DCMAKE_INSTALL_PREFIX=/home/gordon/grasp/install/franka_msgs

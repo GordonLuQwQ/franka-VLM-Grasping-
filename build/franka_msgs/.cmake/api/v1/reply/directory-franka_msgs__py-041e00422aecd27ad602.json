@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "franka_msgs__py",
+		"source" : "/home/gordon/grasp/build/franka_msgs/franka_msgs__py"
+	}
+}

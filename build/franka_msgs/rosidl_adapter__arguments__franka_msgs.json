@@ -1,0 +1,21 @@
+{
+  "package_name": "franka_msgs",
+  "non_idl_tuples": [
+    "/home/gordon/grasp/src/franka_ros2/franka_msgs:action/ErrorRecovery.action",
+    "/home/gordon/grasp/src/franka_ros2/franka_msgs:action/Grasp.action",
+    "/home/gordon/grasp/src/franka_ros2/franka_msgs:action/Homing.action",
+    "/home/gordon/grasp/src/franka_ros2/franka_msgs:action/Move.action",
+    "/home/gordon/grasp/src/franka_ros2/franka_msgs:msg/CollisionIndicators.msg",
+    "/home/gordon/grasp/src/franka_ros2/franka_msgs:msg/Elbow.msg",
+    "/home/gordon/grasp/src/franka_ros2/franka_msgs:msg/Errors.msg",
+    "/home/gordon/grasp/src/franka_ros2/franka_msgs:msg/GraspEpsilon.msg",
+    "/home/gordon/grasp/src/franka_ros2/franka_msgs:msg/FrankaRobotState.msg",
+    "/home/gordon/grasp/src/franka_ros2/franka_msgs:srv/SetCartesianStiffness.srv",
+    "/home/gordon/grasp/src/franka_ros2/franka_msgs:srv/SetTCPFrame.srv",
+    "/home/gordon/grasp/src/franka_ros2/franka_msgs:srv/SetForceTorqueCollisionBehavior.srv",
+    "/home/gordon/grasp/src/franka_ros2/franka_msgs:srv/SetFullCollisionBehavior.srv",
+    "/home/gordon/grasp/src/franka_ros2/franka_msgs:srv/SetJointStiffness.srv",
+    "/home/gordon/grasp/src/franka_ros2/franka_msgs:srv/SetStiffnessFrame.srv",
+    "/home/gordon/grasp/src/franka_ros2/franka_msgs:srv/SetLoad.srv"
+  ]
+}

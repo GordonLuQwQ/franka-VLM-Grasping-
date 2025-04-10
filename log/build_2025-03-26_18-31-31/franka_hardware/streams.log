@@ -1,0 +1,75 @@
+[0.007s] Invoking command in '/home/gordon/grasp/build/franka_hardware': AMENT_PREFIX_PATH=/home/gordon/grasp/install/franka_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gordon/grasp/install/franka_msgs:/home/gordon/grasp/install/my_python_package:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(grasp38) LD_LIBRARY_PATH=/home/gordon/grasp/install/franka_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gordon/grasp/install/franka_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/gordon/grasp/src/franka_ros2/franka_hardware -DCMAKE_INSTALL_PREFIX=/home/gordon/grasp/install/franka_hardware
+[0.010s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.010s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.010s]   CMake.
+[0.010s] 
+[0.010s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.010s]   to tell CMake that the project requires at least <min> but has been updated
+[0.010s]   to work with policies introduced by <max> or earlier.
+[0.010s] 
+[0.010s] [0m
+[0.033s] -- The C compiler identification is GNU 9.4.0
+[0.063s] -- The CXX compiler identification is GNU 9.4.0
+[0.067s] -- Detecting C compiler ABI info
+[0.098s] -- Detecting C compiler ABI info - done
+[0.106s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.106s] -- Detecting C compile features
+[0.106s] -- Detecting C compile features - done
+[0.112s] -- Detecting CXX compiler ABI info
+[0.149s] -- Detecting CXX compiler ABI info - done
+[0.157s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.157s] -- Detecting CXX compile features
+[0.158s] -- Detecting CXX compile features - done
+[0.162s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.164s] [33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.164s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.164s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.164s]   the cmake_policy command to set the policy and suppress this warning.
+[0.164s] 
+[0.164s] Call Stack (most recent call first):
+[0.164s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.164s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.164s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.164s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.165s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.165s]   CMakeLists.txt:16 (find_package)
+[0.165s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.165s] [0m
+[0.177s] -- Found PythonInterp: /home/gordon/miniconda3/envs/grasp38/bin/python3 (found suitable version "3.8.20", minimum required is "3")
+[0.177s] -- Using PYTHON_EXECUTABLE: /home/gordon/miniconda3/envs/grasp38/bin/python3
+[0.260s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.287s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.290s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.329s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")
+[0.346s] -- Found FastRTPS: /opt/ros/foxy/include
+[0.388s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.423s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.425s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.425s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.461s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.461s] -- Looking for pthread_create in pthreads
+[0.489s] -- Looking for pthread_create in pthreads - not found
+[0.489s] -- Looking for pthread_create in pthread
+[0.521s] -- Looking for pthread_create in pthread - found
+[0.521s] -- Found Threads: TRUE
+[0.601s] -- Found rclcpp_action: 2.4.3 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[0.639s] -- Found franka_msgs: 1.0.0 (/home/gordon/grasp/install/franka_msgs/share/franka_msgs/cmake)
+[0.802s] -- Found hardware_interface: 0.11.0 (/opt/ros/foxy/share/hardware_interface/cmake)
+[1.002s] [31mCMake Error at CMakeLists.txt:22 (find_package):
+[1.002s]   By not providing "FindFranka.cmake" in CMAKE_MODULE_PATH this project has
+[1.002s]   asked CMake to find a package configuration file provided by "Franka", but
+[1.002s]   CMake did not find one.
+[1.002s] 
+[1.002s]   Could not find a package configuration file provided by "Franka" (requested
+[1.002s]   version 0.13.2) with any of the following names:
+[1.002s] 
+[1.002s]     FrankaConfig.cmake
+[1.002s]     franka-config.cmake
+[1.002s] 
+[1.002s]   Add the installation prefix of "Franka" to CMAKE_PREFIX_PATH or set
+[1.002s]   "Franka_DIR" to a directory containing one of the above files.  If "Franka"
+[1.002s]   provides a separate development package or SDK, be sure it has been
+[1.002s]   installed.
+[1.002s] 
+[1.002s] [0m
+[1.002s] -- Configuring incomplete, errors occurred!

@@ -1,0 +1,92 @@
+[0.012s] Invoking command in '/home/gordon/grasp/build/integration_launch_testing': CMAKE_PREFIX_PATH=/home/gordon/grasp/install/my_python_package:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(grasp38) /usr/bin/cmake /home/gordon/grasp/src/franka_ros2/integration_launch_testing -DCMAKE_INSTALL_PREFIX=/home/gordon/grasp/install/integration_launch_testing
+[0.025s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.025s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.025s]   CMake.
+[0.025s] 
+[0.025s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.025s]   to tell CMake that the project requires at least <min> but has been updated
+[0.025s]   to work with policies introduced by <max> or earlier.
+[0.025s] 
+[0.025s] [0m
+[0.062s] -- The C compiler identification is GNU 9.4.0
+[0.094s] -- The CXX compiler identification is GNU 9.4.0
+[0.100s] -- Detecting C compiler ABI info
+[0.138s] -- Detecting C compiler ABI info - done
+[0.152s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.152s] -- Detecting C compile features
+[0.153s] -- Detecting C compile features - done
+[0.160s] -- Detecting CXX compiler ABI info
+[0.198s] -- Detecting CXX compiler ABI info - done
+[0.207s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.207s] -- Detecting CXX compile features
+[0.208s] -- Detecting CXX compile features - done
+[0.215s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.218s] [33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.218s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.218s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.218s]   the cmake_policy command to set the policy and suppress this warning.
+[0.218s] 
+[0.218s] Call Stack (most recent call first):
+[0.218s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.218s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.218s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.218s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.218s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.218s]   CMakeLists.txt:20 (find_package)
+[0.218s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.218s] [0m
+[0.229s] -- Found PythonInterp: /home/gordon/miniconda3/envs/grasp38/bin/python3 (found suitable version "3.8.20", minimum required is "3")
+[0.230s] -- Using PYTHON_EXECUTABLE: /home/gordon/miniconda3/envs/grasp38/bin/python3
+[0.320s] -- Found ament_cmake_copyright: 0.9.8 (/opt/ros/foxy/share/ament_cmake_copyright/cmake)
+[0.321s] -- Found ament_cmake_flake8: 0.9.8 (/opt/ros/foxy/share/ament_cmake_flake8/cmake)
+[0.322s] -- Found ament_cmake_lint_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake_lint_cmake/cmake)
+[0.324s] -- Found ament_cmake_pep257: 0.9.8 (/opt/ros/foxy/share/ament_cmake_pep257/cmake)
+[0.325s] -- Found ament_cmake_xmllint: 0.9.8 (/opt/ros/foxy/share/ament_cmake_xmllint/cmake)
+[0.327s] -- Found launch_testing_ament_cmake: 0.10.10 (/opt/ros/foxy/share/launch_testing_ament_cmake/cmake)
+[0.328s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[0.329s] [33mCMake Warning (dev) at /opt/ros/foxy/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:45 (find_package):
+[0.329s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.330s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.331s]   the cmake_policy command to set the policy and suppress this warning.
+[0.331s] 
+[0.331s] Call Stack (most recent call first):
+[0.331s]   /opt/ros/foxy/share/launch_testing_ament_cmake/cmake/launch_testing_ament_cmake-extras.cmake:18 (find_package)
+[0.331s]   /opt/ros/foxy/share/launch_testing_ament_cmake/cmake/launch_testing_ament_cmakeConfig.cmake:41 (include)
+[0.331s]   CMakeLists.txt:33 (find_package)
+[0.331s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.331s] [0m
+[0.339s] -- Found PythonInterp: /home/gordon/miniconda3/envs/grasp38/bin/python3 (found suitable version "3.8.20", minimum required is "3.5")
+[0.339s] [33mCMake Warning (dev) at /opt/ros/foxy/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:133 (find_package):
+[0.339s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.339s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.339s]   the cmake_policy command to set the policy and suppress this warning.
+[0.339s] 
+[0.339s] Call Stack (most recent call first):
+[0.339s]   /opt/ros/foxy/share/launch_testing_ament_cmake/cmake/launch_testing_ament_cmake-extras.cmake:18 (find_package)
+[0.339s]   /opt/ros/foxy/share/launch_testing_ament_cmake/cmake/launch_testing_ament_cmakeConfig.cmake:41 (include)
+[0.339s]   CMakeLists.txt:33 (find_package)
+[0.339s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.339s] [0m
+[0.341s] -- Found PythonLibs: /home/gordon/miniconda3/envs/grasp38/lib/libpython3.8.so (found suitable version "3.8.20", minimum required is "3.5")
+[0.341s] -- Using PYTHON_EXECUTABLE: /home/gordon/miniconda3/envs/grasp38/bin/python3
+[0.342s] -- Using PYTHON_INCLUDE_DIRS: /home/gordon/miniconda3/envs/grasp38/include/python3.8
+[0.342s] -- Using PYTHON_LIBRARIES: /home/gordon/miniconda3/envs/grasp38/lib/libpython3.8.so
+[0.352s] -- Found PythonExtra: .so
+[0.368s] Traceback (most recent call last):
+[0.368s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 21, in <module>
+[0.368s]     from catkin_pkg.package import parse_package_string
+[0.368s] ModuleNotFoundError: No module named 'catkin_pkg'
+[0.370s] [31mCMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):
+[0.370s]   execute_process(/home/gordon/miniconda3/envs/grasp38/bin/python3
+[0.370s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.370s]   /home/gordon/grasp/src/franka_ros2/integration_launch_testing/package.xml
+[0.370s]   /home/gordon/grasp/build/integration_launch_testing/ament_cmake_core/package.cmake)
+[0.370s]   returned error code 1
+[0.370s] Call Stack (most recent call first):
+[0.370s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.370s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)
+[0.370s]   CMakeLists.txt:45 (ament_package)
+[0.370s] 
+[0.370s] [0m
+[0.370s] -- Configuring incomplete, errors occurred!
+[0.373s] Invoked command in '/home/gordon/grasp/build/integration_launch_testing' returned '1': CMAKE_PREFIX_PATH=/home/gordon/grasp/install/my_python_package:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(grasp38) /usr/bin/cmake /home/gordon/grasp/src/franka_ros2/integration_launch_testing -DCMAKE_INSTALL_PREFIX=/home/gordon/grasp/install/integration_launch_testing

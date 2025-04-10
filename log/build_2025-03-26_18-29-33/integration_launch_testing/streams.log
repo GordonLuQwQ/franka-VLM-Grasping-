@@ -1,0 +1,90 @@
+[0.011s] Invoking command in '/home/gordon/grasp/build/integration_launch_testing': CMAKE_PREFIX_PATH=/home/gordon/grasp/install/my_python_package:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(grasp38) /usr/bin/cmake /home/gordon/grasp/src/franka_ros2/integration_launch_testing -DCMAKE_INSTALL_PREFIX=/home/gordon/grasp/install/integration_launch_testing
+[0.014s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.014s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.014s]   CMake.
+[0.014s] 
+[0.014s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.014s]   to tell CMake that the project requires at least <min> but has been updated
+[0.014s]   to work with policies introduced by <max> or earlier.
+[0.014s] 
+[0.014s] [0m
+[0.019s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.019s] [33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.019s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.020s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.020s]   the cmake_policy command to set the policy and suppress this warning.
+[0.020s] 
+[0.020s] Call Stack (most recent call first):
+[0.020s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.020s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.020s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.020s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.020s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.020s]   CMakeLists.txt:20 (find_package)
+[0.020s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.020s] [0m
+[0.030s] -- Found PythonInterp: /home/gordon/miniconda3/envs/grasp38/bin/python3 (found suitable version "3.8.20", minimum required is "3")
+[0.030s] -- Using PYTHON_EXECUTABLE: /home/gordon/miniconda3/envs/grasp38/bin/python3
+[0.107s] -- Found ament_cmake_copyright: 0.9.8 (/opt/ros/foxy/share/ament_cmake_copyright/cmake)
+[0.107s] -- Found ament_cmake_flake8: 0.9.8 (/opt/ros/foxy/share/ament_cmake_flake8/cmake)
+[0.108s] -- Found ament_cmake_lint_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake_lint_cmake/cmake)
+[0.108s] -- Found ament_cmake_pep257: 0.9.8 (/opt/ros/foxy/share/ament_cmake_pep257/cmake)
+[0.108s] -- Found ament_cmake_xmllint: 0.9.8 (/opt/ros/foxy/share/ament_cmake_xmllint/cmake)
+[0.108s] -- Found launch_testing_ament_cmake: 0.10.10 (/opt/ros/foxy/share/launch_testing_ament_cmake/cmake)
+[0.108s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[0.109s] [33mCMake Warning (dev) at /opt/ros/foxy/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:45 (find_package):
+[0.109s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.109s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.109s]   the cmake_policy command to set the policy and suppress this warning.
+[0.109s] 
+[0.109s] Call Stack (most recent call first):
+[0.109s]   /opt/ros/foxy/share/launch_testing_ament_cmake/cmake/launch_testing_ament_cmake-extras.cmake:18 (find_package)
+[0.109s]   /opt/ros/foxy/share/launch_testing_ament_cmake/cmake/launch_testing_ament_cmakeConfig.cmake:41 (include)
+[0.109s]   CMakeLists.txt:33 (find_package)
+[0.109s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.109s] [0m
+[0.120s] -- Found PythonInterp: /home/gordon/miniconda3/envs/grasp38/bin/python3 (found suitable version "3.8.20", minimum required is "3.5")
+[0.121s] [33mCMake Warning (dev) at /opt/ros/foxy/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:133 (find_package):
+[0.121s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.121s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.121s]   the cmake_policy command to set the policy and suppress this warning.
+[0.121s] 
+[0.121s] Call Stack (most recent call first):
+[0.121s]   /opt/ros/foxy/share/launch_testing_ament_cmake/cmake/launch_testing_ament_cmake-extras.cmake:18 (find_package)
+[0.121s]   /opt/ros/foxy/share/launch_testing_ament_cmake/cmake/launch_testing_ament_cmakeConfig.cmake:41 (include)
+[0.121s]   CMakeLists.txt:33 (find_package)
+[0.121s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.121s] [0m
+[0.122s] -- Using PYTHON_EXECUTABLE: /home/gordon/miniconda3/envs/grasp38/bin/python3
+[0.122s] -- Using PYTHON_INCLUDE_DIRS: /home/gordon/miniconda3/envs/grasp38/include/python3.8
+[0.123s] -- Using PYTHON_LIBRARIES: /home/gordon/miniconda3/envs/grasp38/lib/libpython3.8.so
+[0.178s] -- Configuring done (0.2s)
+[0.180s] -- Generating done (0.0s)
+[0.181s] -- Build files have been written to: /home/gordon/grasp/build/integration_launch_testing
+[0.183s] Invoked command in '/home/gordon/grasp/build/integration_launch_testing' returned '0': CMAKE_PREFIX_PATH=/home/gordon/grasp/install/my_python_package:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(grasp38) /usr/bin/cmake /home/gordon/grasp/src/franka_ros2/integration_launch_testing -DCMAKE_INSTALL_PREFIX=/home/gordon/grasp/install/integration_launch_testing
+[0.186s] Invoking command in '/home/gordon/grasp/build/integration_launch_testing': CMAKE_PREFIX_PATH=/home/gordon/grasp/install/my_python_package:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(grasp38) /usr/bin/cmake --build /home/gordon/grasp/build/integration_launch_testing -- -j20 -l20
+[0.195s] Invoked command in '/home/gordon/grasp/build/integration_launch_testing' returned '0': CMAKE_PREFIX_PATH=/home/gordon/grasp/install/my_python_package:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(grasp38) /usr/bin/cmake --build /home/gordon/grasp/build/integration_launch_testing -- -j20 -l20
+[0.199s] Invoking command in '/home/gordon/grasp/build/integration_launch_testing': CMAKE_PREFIX_PATH=/home/gordon/grasp/install/my_python_package:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(grasp38) /usr/bin/cmake --install /home/gordon/grasp/build/integration_launch_testing
+[0.200s] -- Install configuration: ""
+[0.200s] -- Installing: /home/gordon/grasp/install/integration_launch_testing/share/integration_launch_testing/test
+[0.200s] -- Installing: /home/gordon/grasp/install/integration_launch_testing/share/integration_launch_testing/test/test_move_to_start_example_controller.py
+[0.200s] -- Installing: /home/gordon/grasp/install/integration_launch_testing/share/integration_launch_testing/test/test_franka_gripper_position.py
+[0.201s] -- Installing: /home/gordon/grasp/install/integration_launch_testing/share/integration_launch_testing/environment/library_path.sh
+[0.201s] -- Installing: /home/gordon/grasp/install/integration_launch_testing/share/integration_launch_testing/environment/library_path.dsv
+[0.201s] -- Installing: /home/gordon/grasp/install/integration_launch_testing/share/ament_index/resource_index/package_run_dependencies/integration_launch_testing
+[0.201s] -- Installing: /home/gordon/grasp/install/integration_launch_testing/share/ament_index/resource_index/parent_prefix_path/integration_launch_testing
+[0.201s] -- Installing: /home/gordon/grasp/install/integration_launch_testing/share/integration_launch_testing/environment/ament_prefix_path.sh
+[0.201s] -- Installing: /home/gordon/grasp/install/integration_launch_testing/share/integration_launch_testing/environment/ament_prefix_path.dsv
+[0.201s] -- Installing: /home/gordon/grasp/install/integration_launch_testing/share/integration_launch_testing/environment/path.sh
+[0.201s] -- Installing: /home/gordon/grasp/install/integration_launch_testing/share/integration_launch_testing/environment/path.dsv
+[0.201s] -- Installing: /home/gordon/grasp/install/integration_launch_testing/share/integration_launch_testing/local_setup.bash
+[0.201s] -- Installing: /home/gordon/grasp/install/integration_launch_testing/share/integration_launch_testing/local_setup.sh
+[0.201s] -- Installing: /home/gordon/grasp/install/integration_launch_testing/share/integration_launch_testing/local_setup.zsh
+[0.201s] -- Installing: /home/gordon/grasp/install/integration_launch_testing/share/integration_launch_testing/local_setup.dsv
+[0.201s] -- Installing: /home/gordon/grasp/install/integration_launch_testing/share/integration_launch_testing/package.dsv
+[0.201s] -- Installing: /home/gordon/grasp/install/integration_launch_testing/share/ament_index/resource_index/packages/integration_launch_testing
+[0.201s] -- Installing: /home/gordon/grasp/install/integration_launch_testing/share/integration_launch_testing/cmake/ament_cmake_export_libraries-extras.cmake
+[0.202s] -- Installing: /home/gordon/grasp/install/integration_launch_testing/share/integration_launch_testing/cmake/integration_launch_testingConfig.cmake
+[0.202s] -- Installing: /home/gordon/grasp/install/integration_launch_testing/share/integration_launch_testing/cmake/integration_launch_testingConfig-version.cmake
+[0.202s] -- Installing: /home/gordon/grasp/install/integration_launch_testing/share/integration_launch_testing/package.xml
+[0.203s] Invoked command in '/home/gordon/grasp/build/integration_launch_testing' returned '0': CMAKE_PREFIX_PATH=/home/gordon/grasp/install/my_python_package:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(grasp38) /usr/bin/cmake --install /home/gordon/grasp/build/integration_launch_testing

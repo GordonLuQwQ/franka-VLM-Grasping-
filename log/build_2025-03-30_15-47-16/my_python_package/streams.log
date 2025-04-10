@@ -1,0 +1,25 @@
+[0.282s] Invoking command in '/home/gordon/grasp/src/my_python_package': CONDA_PROMPT_MODIFIER=(grasp38) PYTHONPATH=/home/gordon/grasp/build/my_python_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gordon/grasp/install/my_python_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_python_package build --build-base /home/gordon/grasp/build/my_python_package/build install --record /home/gordon/grasp/build/my_python_package/install.log --single-version-externally-managed install_data
+[0.381s] running egg_info
+[0.381s] writing ../../build/my_python_package/my_python_package.egg-info/PKG-INFO
+[0.381s] writing dependency_links to ../../build/my_python_package/my_python_package.egg-info/dependency_links.txt
+[0.381s] writing entry points to ../../build/my_python_package/my_python_package.egg-info/entry_points.txt
+[0.381s] writing requirements to ../../build/my_python_package/my_python_package.egg-info/requires.txt
+[0.381s] writing top-level names to ../../build/my_python_package/my_python_package.egg-info/top_level.txt
+[0.397s] reading manifest file '../../build/my_python_package/my_python_package.egg-info/SOURCES.txt'
+[0.397s] writing manifest file '../../build/my_python_package/my_python_package.egg-info/SOURCES.txt'
+[0.397s] running build
+[0.397s] running build_py
+[0.397s] copying my_python_package/trajectory_publisher.py -> /home/gordon/grasp/build/my_python_package/build/lib/my_python_package
+[0.397s] running install
+[0.398s] running install_lib
+[0.398s] copying /home/gordon/grasp/build/my_python_package/build/lib/my_python_package/trajectory_publisher.py -> /home/gordon/grasp/install/my_python_package/lib/python3.8/site-packages/my_python_package
+[0.398s] byte-compiling /home/gordon/grasp/install/my_python_package/lib/python3.8/site-packages/my_python_package/trajectory_publisher.py to trajectory_publisher.cpython-38.pyc
+[0.400s] running install_data
+[0.400s] running install_egg_info
+[0.401s] removing '/home/gordon/grasp/install/my_python_package/lib/python3.8/site-packages/my_python_package-0.0.0-py3.8.egg-info' (and everything under it)
+[0.401s] Copying ../../build/my_python_package/my_python_package.egg-info to /home/gordon/grasp/install/my_python_package/lib/python3.8/site-packages/my_python_package-0.0.0-py3.8.egg-info
+[0.401s] running install_scripts
+[0.409s] Installing pose_publisher script to /home/gordon/grasp/install/my_python_package/lib/my_python_package
+[0.409s] Installing trajectory_publisher script to /home/gordon/grasp/install/my_python_package/lib/my_python_package
+[0.410s] writing list of installed files to '/home/gordon/grasp/build/my_python_package/install.log'
+[0.420s] Invoked command in '/home/gordon/grasp/src/my_python_package' returned '0': CONDA_PROMPT_MODIFIER=(grasp38) PYTHONPATH=/home/gordon/grasp/build/my_python_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gordon/grasp/install/my_python_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_python_package build --build-base /home/gordon/grasp/build/my_python_package/build install --record /home/gordon/grasp/build/my_python_package/install.log --single-version-externally-managed install_data

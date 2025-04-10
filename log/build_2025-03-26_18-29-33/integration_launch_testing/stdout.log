@@ -1,0 +1,39 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /home/gordon/miniconda3/envs/grasp38/bin/python3 (found suitable version "3.8.20", minimum required is "3")
+-- Using PYTHON_EXECUTABLE: /home/gordon/miniconda3/envs/grasp38/bin/python3
+-- Found ament_cmake_copyright: 0.9.8 (/opt/ros/foxy/share/ament_cmake_copyright/cmake)
+-- Found ament_cmake_flake8: 0.9.8 (/opt/ros/foxy/share/ament_cmake_flake8/cmake)
+-- Found ament_cmake_lint_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake_lint_cmake/cmake)
+-- Found ament_cmake_pep257: 0.9.8 (/opt/ros/foxy/share/ament_cmake_pep257/cmake)
+-- Found ament_cmake_xmllint: 0.9.8 (/opt/ros/foxy/share/ament_cmake_xmllint/cmake)
+-- Found launch_testing_ament_cmake: 0.10.10 (/opt/ros/foxy/share/launch_testing_ament_cmake/cmake)
+-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+-- Found PythonInterp: /home/gordon/miniconda3/envs/grasp38/bin/python3 (found suitable version "3.8.20", minimum required is "3.5")
+-- Using PYTHON_EXECUTABLE: /home/gordon/miniconda3/envs/grasp38/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /home/gordon/miniconda3/envs/grasp38/include/python3.8
+-- Using PYTHON_LIBRARIES: /home/gordon/miniconda3/envs/grasp38/lib/libpython3.8.so
+-- Configuring done (0.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/gordon/grasp/build/integration_launch_testing
+-- Install configuration: ""
+-- Installing: /home/gordon/grasp/install/integration_launch_testing/share/integration_launch_testing/test
+-- Installing: /home/gordon/grasp/install/integration_launch_testing/share/integration_launch_testing/test/test_move_to_start_example_controller.py
+-- Installing: /home/gordon/grasp/install/integration_launch_testing/share/integration_launch_testing/test/test_franka_gripper_position.py
+-- Installing: /home/gordon/grasp/install/integration_launch_testing/share/integration_launch_testing/environment/library_path.sh
+-- Installing: /home/gordon/grasp/install/integration_launch_testing/share/integration_launch_testing/environment/library_path.dsv
+-- Installing: /home/gordon/grasp/install/integration_launch_testing/share/ament_index/resource_index/package_run_dependencies/integration_launch_testing
+-- Installing: /home/gordon/grasp/install/integration_launch_testing/share/ament_index/resource_index/parent_prefix_path/integration_launch_testing
+-- Installing: /home/gordon/grasp/install/integration_launch_testing/share/integration_launch_testing/environment/ament_prefix_path.sh
+-- Installing: /home/gordon/grasp/install/integration_launch_testing/share/integration_launch_testing/environment/ament_prefix_path.dsv
+-- Installing: /home/gordon/grasp/install/integration_launch_testing/share/integration_launch_testing/environment/path.sh
+-- Installing: /home/gordon/grasp/install/integration_launch_testing/share/integration_launch_testing/environment/path.dsv
+-- Installing: /home/gordon/grasp/install/integration_launch_testing/share/integration_launch_testing/local_setup.bash
+-- Installing: /home/gordon/grasp/install/integration_launch_testing/share/integration_launch_testing/local_setup.sh
+-- Installing: /home/gordon/grasp/install/integration_launch_testing/share/integration_launch_testing/local_setup.zsh
+-- Installing: /home/gordon/grasp/install/integration_launch_testing/share/integration_launch_testing/local_setup.dsv
+-- Installing: /home/gordon/grasp/install/integration_launch_testing/share/integration_launch_testing/package.dsv
+-- Installing: /home/gordon/grasp/install/integration_launch_testing/share/ament_index/resource_index/packages/integration_launch_testing
+-- Installing: /home/gordon/grasp/install/integration_launch_testing/share/integration_launch_testing/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/gordon/grasp/install/integration_launch_testing/share/integration_launch_testing/cmake/integration_launch_testingConfig.cmake
+-- Installing: /home/gordon/grasp/install/integration_launch_testing/share/integration_launch_testing/cmake/integration_launch_testingConfig-version.cmake
+-- Installing: /home/gordon/grasp/install/integration_launch_testing/share/integration_launch_testing/package.xml

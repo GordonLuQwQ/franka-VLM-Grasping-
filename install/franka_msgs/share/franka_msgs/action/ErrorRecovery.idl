@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from franka_msgs/action/ErrorRecovery.action
+// generated code does not contain a copyright notice
+
+
+module franka_msgs {
+  module action {
+    struct ErrorRecovery_Goal {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct ErrorRecovery_Result {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct ErrorRecovery_Feedback {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

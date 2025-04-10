@@ -1,6 +1,6 @@
 # VL-Grasp on Franka
 
-This project is about teleporting VL-Grasp model into a Franka robotic arm to proceed visual language model based grasping.
+This project is about teleporting VL-Grasp model into a Franka robotic arm to proceed visual language model based grasping using ROS2 Foxy.
 
 ## Citation
 
